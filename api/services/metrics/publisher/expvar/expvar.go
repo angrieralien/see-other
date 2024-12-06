@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mydomain/see-other/foundation/logger"
+	"github.com/angrieralien/seeother/foundation/logger"
 )
 
 // Expvar provide our basic publishing.

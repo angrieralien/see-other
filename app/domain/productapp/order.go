@@ -1,7 +1,7 @@
 package productapp
 
 import (
-	"github.com/mydomain/see-other/business/domain/productbus"
+	"github.com/angrieralien/seeother/business/domain/productbus"
 )
 
 var orderByFields = map[string]string{

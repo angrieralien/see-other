@@ -3,9 +3,9 @@ package user_test
 import (
 	"net/http"
 
-	"github.com/mydomain/see-other/app/domain/userapp"
-	"github.com/mydomain/see-other/app/sdk/apitest"
-	"github.com/mydomain/see-other/app/sdk/errs"
+	"github.com/angrieralien/seeother/app/domain/userapp"
+	"github.com/angrieralien/seeother/app/sdk/apitest"
+	"github.com/angrieralien/seeother/app/sdk/errs"
 	"github.com/google/go-cmp/cmp"
 )
 

@@ -11,13 +11,13 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/angrieralien/seeother/api/services/metrics/collector"
+	"github.com/angrieralien/seeother/api/services/metrics/publisher"
+	expvarsrv "github.com/angrieralien/seeother/api/services/metrics/publisher/expvar"
+	prometheussrv "github.com/angrieralien/seeother/api/services/metrics/publisher/prometheus"
+	"github.com/angrieralien/seeother/app/sdk/debug"
+	"github.com/angrieralien/seeother/foundation/logger"
 	"github.com/ardanlabs/conf/v3"
-	"github.com/mydomain/see-other/api/services/metrics/collector"
-	"github.com/mydomain/see-other/api/services/metrics/publisher"
-	expvarsrv "github.com/mydomain/see-other/api/services/metrics/publisher/expvar"
-	prometheussrv "github.com/mydomain/see-other/api/services/metrics/publisher/prometheus"
-	"github.com/mydomain/see-other/app/sdk/debug"
-	"github.com/mydomain/see-other/foundation/logger"
 )
 
 var build = "develop"

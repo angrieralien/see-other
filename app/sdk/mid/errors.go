@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"path"
 
-	"github.com/mydomain/see-other/app/sdk/errs"
-	"github.com/mydomain/see-other/foundation/logger"
-	"github.com/mydomain/see-other/foundation/otel"
-	"github.com/mydomain/see-other/foundation/web"
+	"github.com/angrieralien/seeother/app/sdk/errs"
+	"github.com/angrieralien/seeother/foundation/logger"
+	"github.com/angrieralien/seeother/foundation/otel"
+	"github.com/angrieralien/seeother/foundation/web"
 )
 
 // Errors handles errors coming out of the call chain.

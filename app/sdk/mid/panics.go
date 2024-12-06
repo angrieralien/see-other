@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"runtime/debug"
 
-	"github.com/mydomain/see-other/app/sdk/errs"
-	"github.com/mydomain/see-other/app/sdk/metrics"
-	"github.com/mydomain/see-other/foundation/web"
+	"github.com/angrieralien/seeother/app/sdk/errs"
+	"github.com/angrieralien/seeother/app/sdk/metrics"
+	"github.com/angrieralien/seeother/foundation/web"
 )
 
 // Panics recovers from panics and converts the panic to an error so it is

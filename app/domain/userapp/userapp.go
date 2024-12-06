@@ -6,13 +6,13 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/mydomain/see-other/app/sdk/errs"
-	"github.com/mydomain/see-other/app/sdk/mid"
-	"github.com/mydomain/see-other/app/sdk/query"
-	"github.com/mydomain/see-other/business/domain/userbus"
-	"github.com/mydomain/see-other/business/sdk/order"
-	"github.com/mydomain/see-other/business/sdk/page"
-	"github.com/mydomain/see-other/foundation/web"
+	"github.com/angrieralien/seeother/app/sdk/errs"
+	"github.com/angrieralien/seeother/app/sdk/mid"
+	"github.com/angrieralien/seeother/app/sdk/query"
+	"github.com/angrieralien/seeother/business/domain/userbus"
+	"github.com/angrieralien/seeother/business/sdk/order"
+	"github.com/angrieralien/seeother/business/sdk/page"
+	"github.com/angrieralien/seeother/foundation/web"
 )
 
 type app struct {

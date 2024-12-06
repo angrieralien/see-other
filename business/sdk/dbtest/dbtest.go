@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mydomain/see-other/business/sdk/migrate"
-	"github.com/mydomain/see-other/business/sdk/sqldb"
-	"github.com/mydomain/see-other/foundation/docker"
-	"github.com/mydomain/see-other/foundation/logger"
-	"github.com/mydomain/see-other/foundation/otel"
+	"github.com/angrieralien/seeother/business/sdk/migrate"
+	"github.com/angrieralien/seeother/business/sdk/sqldb"
+	"github.com/angrieralien/seeother/foundation/docker"
+	"github.com/angrieralien/seeother/foundation/logger"
+	"github.com/angrieralien/seeother/foundation/otel"
 	"github.com/jmoiron/sqlx"
 )
 

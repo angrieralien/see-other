@@ -7,11 +7,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/mydomain/see-other/business/domain/userbus"
-	"github.com/mydomain/see-other/business/domain/userbus/stores/userdb"
-	"github.com/mydomain/see-other/business/sdk/page"
-	"github.com/mydomain/see-other/business/sdk/sqldb"
-	"github.com/mydomain/see-other/foundation/logger"
+	"github.com/angrieralien/seeother/business/domain/userbus"
+	"github.com/angrieralien/seeother/business/domain/userbus/stores/userdb"
+	"github.com/angrieralien/seeother/business/sdk/page"
+	"github.com/angrieralien/seeother/business/sdk/sqldb"
+	"github.com/angrieralien/seeother/foundation/logger"
 )
 
 // Users retrieves all users from the database.

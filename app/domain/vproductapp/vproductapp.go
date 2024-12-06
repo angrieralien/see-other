@@ -5,12 +5,12 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/mydomain/see-other/app/sdk/errs"
-	"github.com/mydomain/see-other/app/sdk/query"
-	"github.com/mydomain/see-other/business/domain/vproductbus"
-	"github.com/mydomain/see-other/business/sdk/order"
-	"github.com/mydomain/see-other/business/sdk/page"
-	"github.com/mydomain/see-other/foundation/web"
+	"github.com/angrieralien/seeother/app/sdk/errs"
+	"github.com/angrieralien/seeother/app/sdk/query"
+	"github.com/angrieralien/seeother/business/domain/vproductbus"
+	"github.com/angrieralien/seeother/business/sdk/order"
+	"github.com/angrieralien/seeother/business/sdk/page"
+	"github.com/angrieralien/seeother/foundation/web"
 )
 
 type app struct {

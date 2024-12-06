@@ -7,11 +7,11 @@ import (
 	"embed"
 	"net/http"
 
-	"github.com/mydomain/see-other/app/sdk/auth"
-	"github.com/mydomain/see-other/app/sdk/authclient"
-	"github.com/mydomain/see-other/app/sdk/mid"
-	"github.com/mydomain/see-other/foundation/logger"
-	"github.com/mydomain/see-other/foundation/web"
+	"github.com/angrieralien/seeother/app/sdk/auth"
+	"github.com/angrieralien/seeother/app/sdk/authclient"
+	"github.com/angrieralien/seeother/app/sdk/mid"
+	"github.com/angrieralien/seeother/foundation/logger"
+	"github.com/angrieralien/seeother/foundation/web"
 	"github.com/jmoiron/sqlx"
 	"go.opentelemetry.io/otel/trace"
 )

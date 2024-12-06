@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/mydomain/see-other/app/domain/vproductapp"
-	"github.com/mydomain/see-other/app/sdk/apitest"
-	"github.com/mydomain/see-other/app/sdk/query"
+	"github.com/angrieralien/seeother/app/domain/vproductapp"
+	"github.com/angrieralien/seeother/app/sdk/apitest"
+	"github.com/angrieralien/seeother/app/sdk/query"
 	"github.com/google/go-cmp/cmp"
 )
 

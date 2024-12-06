@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/mydomain/see-other/app/sdk/metrics"
-	"github.com/mydomain/see-other/foundation/web"
+	"github.com/angrieralien/seeother/app/sdk/metrics"
+	"github.com/angrieralien/seeother/foundation/web"
 )
 
 // Metrics updates program counters.

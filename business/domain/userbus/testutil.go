@@ -6,8 +6,8 @@ import (
 	"math/rand"
 	"net/mail"
 
-	"github.com/mydomain/see-other/business/types/name"
-	"github.com/mydomain/see-other/business/types/role"
+	"github.com/angrieralien/seeother/business/types/name"
+	"github.com/angrieralien/seeother/business/types/role"
 )
 
 // TestNewUsers is a helper method for testing.

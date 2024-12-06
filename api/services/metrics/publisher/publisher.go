@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mydomain/see-other/foundation/logger"
+	"github.com/angrieralien/seeother/foundation/logger"
 )
 
 // Set of possible publisher types.

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/mydomain/see-other/business/types/hometype"
+	"github.com/angrieralien/seeother/business/types/hometype"
 	"github.com/google/uuid"
 )
 

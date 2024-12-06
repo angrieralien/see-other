@@ -1,6 +1,6 @@
 package userbus
 
-import "github.com/mydomain/see-other/business/sdk/order"
+import "github.com/angrieralien/seeother/business/sdk/order"
 
 // DefaultOrderBy represents the default way we sort.
 var DefaultOrderBy = order.NewBy(OrderByID, order.ASC)

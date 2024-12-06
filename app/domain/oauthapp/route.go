@@ -3,9 +3,9 @@ package oauthapp
 import (
 	"net/http"
 
-	"github.com/mydomain/see-other/app/sdk/auth"
-	"github.com/mydomain/see-other/foundation/logger"
-	"github.com/mydomain/see-other/foundation/web"
+	"github.com/angrieralien/seeother/app/sdk/auth"
+	"github.com/angrieralien/seeother/foundation/logger"
+	"github.com/angrieralien/seeother/foundation/web"
 )
 
 // Config contains all the configuration for the auth app.

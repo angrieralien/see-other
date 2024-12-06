@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/mydomain/see-other/business/domain/vproductbus"
+	"github.com/angrieralien/seeother/business/domain/vproductbus"
 )
 
 type queryParams struct {

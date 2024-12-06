@@ -6,10 +6,10 @@ import (
 	"net/mail"
 	"time"
 
-	"github.com/mydomain/see-other/app/sdk/errs"
-	"github.com/mydomain/see-other/business/domain/userbus"
-	"github.com/mydomain/see-other/business/types/name"
-	"github.com/mydomain/see-other/business/types/role"
+	"github.com/angrieralien/seeother/app/sdk/errs"
+	"github.com/angrieralien/seeother/business/domain/userbus"
+	"github.com/angrieralien/seeother/business/types/name"
+	"github.com/angrieralien/seeother/business/types/role"
 )
 
 // User represents information about an individual user.

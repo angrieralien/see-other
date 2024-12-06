@@ -5,7 +5,7 @@ package delegate
 import (
 	"context"
 
-	"github.com/mydomain/see-other/foundation/logger"
+	"github.com/angrieralien/seeother/foundation/logger"
 )
 
 // These types are just for documentation so we know what keys go

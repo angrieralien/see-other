@@ -6,10 +6,10 @@ import (
 	"net/mail"
 	"time"
 
-	"github.com/mydomain/see-other/business/domain/userbus"
-	"github.com/mydomain/see-other/business/sdk/sqldb/dbarray"
-	"github.com/mydomain/see-other/business/types/name"
-	"github.com/mydomain/see-other/business/types/role"
+	"github.com/angrieralien/seeother/business/domain/userbus"
+	"github.com/angrieralien/seeother/business/sdk/sqldb/dbarray"
+	"github.com/angrieralien/seeother/business/types/name"
+	"github.com/angrieralien/seeother/business/types/role"
 	"github.com/google/uuid"
 )
 

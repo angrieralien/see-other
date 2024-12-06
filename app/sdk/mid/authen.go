@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mydomain/see-other/app/sdk/auth"
-	"github.com/mydomain/see-other/app/sdk/authclient"
-	"github.com/mydomain/see-other/app/sdk/errs"
-	"github.com/mydomain/see-other/business/domain/userbus"
-	"github.com/mydomain/see-other/business/types/role"
-	"github.com/mydomain/see-other/foundation/web"
+	"github.com/angrieralien/seeother/app/sdk/auth"
+	"github.com/angrieralien/seeother/app/sdk/authclient"
+	"github.com/angrieralien/seeother/app/sdk/errs"
+	"github.com/angrieralien/seeother/business/domain/userbus"
+	"github.com/angrieralien/seeother/business/types/role"
+	"github.com/angrieralien/seeother/foundation/web"
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/google/uuid"
 )

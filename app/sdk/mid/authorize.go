@@ -6,13 +6,13 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/mydomain/see-other/app/sdk/auth"
-	"github.com/mydomain/see-other/app/sdk/authclient"
-	"github.com/mydomain/see-other/app/sdk/errs"
-	"github.com/mydomain/see-other/business/domain/homebus"
-	"github.com/mydomain/see-other/business/domain/productbus"
-	"github.com/mydomain/see-other/business/domain/userbus"
-	"github.com/mydomain/see-other/foundation/web"
+	"github.com/angrieralien/seeother/app/sdk/auth"
+	"github.com/angrieralien/seeother/app/sdk/authclient"
+	"github.com/angrieralien/seeother/app/sdk/errs"
+	"github.com/angrieralien/seeother/business/domain/homebus"
+	"github.com/angrieralien/seeother/business/domain/productbus"
+	"github.com/angrieralien/seeother/business/domain/userbus"
+	"github.com/angrieralien/seeother/foundation/web"
 	"github.com/google/uuid"
 )
 

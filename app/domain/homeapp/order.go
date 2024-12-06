@@ -1,7 +1,7 @@
 package homeapp
 
 import (
-	"github.com/mydomain/see-other/business/domain/homebus"
+	"github.com/angrieralien/seeother/business/domain/homebus"
 )
 
 var orderByFields = map[string]string{

@@ -1,9 +1,9 @@
 package apitest
 
 import (
-	"github.com/mydomain/see-other/business/domain/homebus"
-	"github.com/mydomain/see-other/business/domain/productbus"
-	"github.com/mydomain/see-other/business/domain/userbus"
+	"github.com/angrieralien/seeother/business/domain/homebus"
+	"github.com/angrieralien/seeother/business/domain/productbus"
+	"github.com/angrieralien/seeother/business/domain/userbus"
 )
 
 // User extends the dbtest user for api test support.

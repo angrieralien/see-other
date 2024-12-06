@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/mydomain/see-other/business/domain/productbus"
+	"github.com/angrieralien/seeother/business/domain/productbus"
 )
 
 func (s *Store) applyFilter(filter productbus.QueryFilter, data map[string]any, buf *bytes.Buffer) {

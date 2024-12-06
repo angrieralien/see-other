@@ -6,12 +6,12 @@ import (
 	"net/mail"
 	"time"
 
-	"github.com/mydomain/see-other/business/domain/userbus"
-	"github.com/mydomain/see-other/business/domain/userbus/stores/userdb"
-	"github.com/mydomain/see-other/business/sdk/sqldb"
-	"github.com/mydomain/see-other/business/types/name"
-	"github.com/mydomain/see-other/business/types/role"
-	"github.com/mydomain/see-other/foundation/logger"
+	"github.com/angrieralien/seeother/business/domain/userbus"
+	"github.com/angrieralien/seeother/business/domain/userbus/stores/userdb"
+	"github.com/angrieralien/seeother/business/sdk/sqldb"
+	"github.com/angrieralien/seeother/business/types/name"
+	"github.com/angrieralien/seeother/business/types/role"
+	"github.com/angrieralien/seeother/foundation/logger"
 )
 
 // UserAdd adds new users into the database.

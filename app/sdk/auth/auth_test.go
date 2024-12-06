@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mydomain/see-other/app/sdk/auth"
-	"github.com/mydomain/see-other/business/types/role"
-	"github.com/mydomain/see-other/foundation/logger"
+	"github.com/angrieralien/seeother/app/sdk/auth"
+	"github.com/angrieralien/seeother/business/types/role"
+	"github.com/angrieralien/seeother/foundation/logger"
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/google/uuid"
 )

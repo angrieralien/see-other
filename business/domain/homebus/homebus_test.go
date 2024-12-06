@@ -7,13 +7,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mydomain/see-other/business/domain/homebus"
-	"github.com/mydomain/see-other/business/domain/userbus"
-	"github.com/mydomain/see-other/business/sdk/dbtest"
-	"github.com/mydomain/see-other/business/sdk/page"
-	"github.com/mydomain/see-other/business/sdk/unitest"
-	"github.com/mydomain/see-other/business/types/hometype"
-	"github.com/mydomain/see-other/business/types/role"
+	"github.com/angrieralien/seeother/business/domain/homebus"
+	"github.com/angrieralien/seeother/business/domain/userbus"
+	"github.com/angrieralien/seeother/business/sdk/dbtest"
+	"github.com/angrieralien/seeother/business/sdk/page"
+	"github.com/angrieralien/seeother/business/sdk/unitest"
+	"github.com/angrieralien/seeother/business/types/hometype"
+	"github.com/angrieralien/seeother/business/types/role"
 	"github.com/google/go-cmp/cmp"
 )
 

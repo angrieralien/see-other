@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/mydomain/see-other/foundation/otel"
-	"github.com/mydomain/see-other/foundation/web"
+	"github.com/angrieralien/seeother/foundation/otel"
+	"github.com/angrieralien/seeother/foundation/web"
 	"go.opentelemetry.io/otel/trace"
 )
 

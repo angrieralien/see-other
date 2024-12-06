@@ -3,14 +3,14 @@ package tranapp
 import (
 	"net/http"
 
-	"github.com/mydomain/see-other/app/sdk/auth"
-	"github.com/mydomain/see-other/app/sdk/authclient"
-	"github.com/mydomain/see-other/app/sdk/mid"
-	"github.com/mydomain/see-other/business/domain/productbus"
-	"github.com/mydomain/see-other/business/domain/userbus"
-	"github.com/mydomain/see-other/business/sdk/sqldb"
-	"github.com/mydomain/see-other/foundation/logger"
-	"github.com/mydomain/see-other/foundation/web"
+	"github.com/angrieralien/seeother/app/sdk/auth"
+	"github.com/angrieralien/seeother/app/sdk/authclient"
+	"github.com/angrieralien/seeother/app/sdk/mid"
+	"github.com/angrieralien/seeother/business/domain/productbus"
+	"github.com/angrieralien/seeother/business/domain/userbus"
+	"github.com/angrieralien/seeother/business/sdk/sqldb"
+	"github.com/angrieralien/seeother/foundation/logger"
+	"github.com/angrieralien/seeother/foundation/web"
 	"github.com/jmoiron/sqlx"
 )
 

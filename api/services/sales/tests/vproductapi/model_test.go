@@ -3,9 +3,9 @@ package vproduct_test
 import (
 	"time"
 
-	"github.com/mydomain/see-other/app/domain/vproductapp"
-	"github.com/mydomain/see-other/business/domain/productbus"
-	"github.com/mydomain/see-other/business/domain/userbus"
+	"github.com/angrieralien/seeother/app/domain/vproductapp"
+	"github.com/angrieralien/seeother/business/domain/productbus"
+	"github.com/angrieralien/seeother/business/domain/userbus"
 )
 
 func toAppVProduct(usr userbus.User, prd productbus.Product) vproductapp.Product {

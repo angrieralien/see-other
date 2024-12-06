@@ -3,10 +3,10 @@ package authapp
 import (
 	"net/http"
 
-	"github.com/mydomain/see-other/app/sdk/auth"
-	"github.com/mydomain/see-other/app/sdk/mid"
-	"github.com/mydomain/see-other/business/domain/userbus"
-	"github.com/mydomain/see-other/foundation/web"
+	"github.com/angrieralien/seeother/app/sdk/auth"
+	"github.com/angrieralien/seeother/app/sdk/mid"
+	"github.com/angrieralien/seeother/business/domain/userbus"
+	"github.com/angrieralien/seeother/foundation/web"
 )
 
 // Config contains all the mandatory systems required by handlers.

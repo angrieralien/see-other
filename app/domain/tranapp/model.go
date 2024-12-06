@@ -6,13 +6,13 @@ import (
 	"net/mail"
 	"time"
 
-	"github.com/mydomain/see-other/app/sdk/errs"
-	"github.com/mydomain/see-other/business/domain/productbus"
-	"github.com/mydomain/see-other/business/domain/userbus"
-	"github.com/mydomain/see-other/business/types/money"
-	"github.com/mydomain/see-other/business/types/name"
-	"github.com/mydomain/see-other/business/types/quantity"
-	"github.com/mydomain/see-other/business/types/role"
+	"github.com/angrieralien/seeother/app/sdk/errs"
+	"github.com/angrieralien/seeother/business/domain/productbus"
+	"github.com/angrieralien/seeother/business/domain/userbus"
+	"github.com/angrieralien/seeother/business/types/money"
+	"github.com/angrieralien/seeother/business/types/name"
+	"github.com/angrieralien/seeother/business/types/quantity"
+	"github.com/angrieralien/seeother/business/types/role"
 )
 
 // Product represents an individual product.

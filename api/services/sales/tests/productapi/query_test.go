@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/mydomain/see-other/app/domain/productapp"
-	"github.com/mydomain/see-other/app/sdk/apitest"
-	"github.com/mydomain/see-other/app/sdk/query"
-	"github.com/mydomain/see-other/business/domain/productbus"
+	"github.com/angrieralien/seeother/app/domain/productapp"
+	"github.com/angrieralien/seeother/app/sdk/apitest"
+	"github.com/angrieralien/seeother/app/sdk/query"
+	"github.com/angrieralien/seeother/business/domain/productbus"
 	"github.com/google/go-cmp/cmp"
 )
 

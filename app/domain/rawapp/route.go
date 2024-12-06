@@ -3,7 +3,7 @@ package rawapp
 import (
 	"net/http"
 
-	"github.com/mydomain/see-other/foundation/web"
+	"github.com/angrieralien/seeother/foundation/web"
 )
 
 // Routes adds specific routes for this group.

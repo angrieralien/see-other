@@ -3,7 +3,7 @@ package home_test
 import (
 	"testing"
 
-	"github.com/mydomain/see-other/app/sdk/apitest"
+	"github.com/angrieralien/seeother/app/sdk/apitest"
 )
 
 func Test_Home(t *testing.T) {

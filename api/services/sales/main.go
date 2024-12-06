@@ -13,16 +13,16 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/angrieralien/seeother/api/services/sales/build/all"
+	"github.com/angrieralien/seeother/api/services/sales/build/crud"
+	"github.com/angrieralien/seeother/api/services/sales/build/reporting"
+	"github.com/angrieralien/seeother/app/sdk/authclient"
+	"github.com/angrieralien/seeother/app/sdk/debug"
+	"github.com/angrieralien/seeother/app/sdk/mux"
+	"github.com/angrieralien/seeother/business/sdk/sqldb"
+	"github.com/angrieralien/seeother/foundation/logger"
+	"github.com/angrieralien/seeother/foundation/otel"
 	"github.com/ardanlabs/conf/v3"
-	"github.com/mydomain/see-other/api/services/sales/build/all"
-	"github.com/mydomain/see-other/api/services/sales/build/crud"
-	"github.com/mydomain/see-other/api/services/sales/build/reporting"
-	"github.com/mydomain/see-other/app/sdk/authclient"
-	"github.com/mydomain/see-other/app/sdk/debug"
-	"github.com/mydomain/see-other/app/sdk/mux"
-	"github.com/mydomain/see-other/business/sdk/sqldb"
-	"github.com/mydomain/see-other/foundation/logger"
-	"github.com/mydomain/see-other/foundation/otel"
 )
 
 /*

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/mydomain/see-other/business/sdk/delegate"
+	"github.com/angrieralien/seeother/business/sdk/delegate"
 	"github.com/google/uuid"
 )
 

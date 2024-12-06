@@ -4,7 +4,7 @@ import (
 	"net/mail"
 	"time"
 
-	"github.com/mydomain/see-other/business/types/name"
+	"github.com/angrieralien/seeother/business/types/name"
 	"github.com/google/uuid"
 )
 

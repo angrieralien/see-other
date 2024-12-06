@@ -3,9 +3,9 @@ package user_test
 import (
 	"time"
 
-	"github.com/mydomain/see-other/app/domain/userapp"
-	"github.com/mydomain/see-other/business/domain/userbus"
-	"github.com/mydomain/see-other/business/types/role"
+	"github.com/angrieralien/seeother/app/domain/userapp"
+	"github.com/angrieralien/seeother/business/domain/userbus"
+	"github.com/angrieralien/seeother/business/types/role"
 )
 
 func toAppUser(bus userbus.User) userapp.User {

@@ -1,4 +1,4 @@
-module github.com/mydomain/see-other
+module github.com/angrieralien/seeother
 
 go 1.23.0
 

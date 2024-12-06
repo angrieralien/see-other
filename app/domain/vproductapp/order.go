@@ -1,7 +1,7 @@
 package vproductapp
 
 import (
-	"github.com/mydomain/see-other/business/domain/vproductbus"
+	"github.com/angrieralien/seeother/business/domain/vproductbus"
 )
 
 var orderByFields = map[string]string{

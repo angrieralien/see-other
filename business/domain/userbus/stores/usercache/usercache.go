@@ -6,11 +6,11 @@ import (
 	"net/mail"
 	"time"
 
-	"github.com/mydomain/see-other/business/domain/userbus"
-	"github.com/mydomain/see-other/business/sdk/order"
-	"github.com/mydomain/see-other/business/sdk/page"
-	"github.com/mydomain/see-other/business/sdk/sqldb"
-	"github.com/mydomain/see-other/foundation/logger"
+	"github.com/angrieralien/seeother/business/domain/userbus"
+	"github.com/angrieralien/seeother/business/sdk/order"
+	"github.com/angrieralien/seeother/business/sdk/page"
+	"github.com/angrieralien/seeother/business/sdk/sqldb"
+	"github.com/angrieralien/seeother/foundation/logger"
 	"github.com/creativecreature/sturdyc"
 	"github.com/google/uuid"
 )

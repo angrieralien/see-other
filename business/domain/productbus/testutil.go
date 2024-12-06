@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/mydomain/see-other/business/types/money"
-	"github.com/mydomain/see-other/business/types/name"
-	"github.com/mydomain/see-other/business/types/quantity"
+	"github.com/angrieralien/seeother/business/types/money"
+	"github.com/angrieralien/seeother/business/types/name"
+	"github.com/angrieralien/seeother/business/types/quantity"
 	"github.com/google/uuid"
 )
 

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/mydomain/see-other/business/domain/homebus"
+	"github.com/angrieralien/seeother/business/domain/homebus"
 )
 
 func (s *Store) applyFilter(filter homebus.QueryFilter, data map[string]any, buf *bytes.Buffer) {

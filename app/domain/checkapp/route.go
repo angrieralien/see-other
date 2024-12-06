@@ -3,8 +3,8 @@ package checkapp
 import (
 	"net/http"
 
-	"github.com/mydomain/see-other/foundation/logger"
-	"github.com/mydomain/see-other/foundation/web"
+	"github.com/angrieralien/seeother/foundation/logger"
+	"github.com/angrieralien/seeother/foundation/web"
 	"github.com/jmoiron/sqlx"
 )
 

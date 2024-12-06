@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/mydomain/see-other/foundation/logger"
+	"github.com/angrieralien/seeother/foundation/logger"
 	"github.com/google/uuid"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"

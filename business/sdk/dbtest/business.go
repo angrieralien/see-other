@@ -3,17 +3,17 @@ package dbtest
 import (
 	"time"
 
-	"github.com/mydomain/see-other/business/domain/homebus"
-	"github.com/mydomain/see-other/business/domain/homebus/stores/homedb"
-	"github.com/mydomain/see-other/business/domain/productbus"
-	"github.com/mydomain/see-other/business/domain/productbus/stores/productdb"
-	"github.com/mydomain/see-other/business/domain/userbus"
-	"github.com/mydomain/see-other/business/domain/userbus/stores/usercache"
-	"github.com/mydomain/see-other/business/domain/userbus/stores/userdb"
-	"github.com/mydomain/see-other/business/domain/vproductbus"
-	"github.com/mydomain/see-other/business/domain/vproductbus/stores/vproductdb"
-	"github.com/mydomain/see-other/business/sdk/delegate"
-	"github.com/mydomain/see-other/foundation/logger"
+	"github.com/angrieralien/seeother/business/domain/homebus"
+	"github.com/angrieralien/seeother/business/domain/homebus/stores/homedb"
+	"github.com/angrieralien/seeother/business/domain/productbus"
+	"github.com/angrieralien/seeother/business/domain/productbus/stores/productdb"
+	"github.com/angrieralien/seeother/business/domain/userbus"
+	"github.com/angrieralien/seeother/business/domain/userbus/stores/usercache"
+	"github.com/angrieralien/seeother/business/domain/userbus/stores/userdb"
+	"github.com/angrieralien/seeother/business/domain/vproductbus"
+	"github.com/angrieralien/seeother/business/domain/vproductbus/stores/vproductdb"
+	"github.com/angrieralien/seeother/business/sdk/delegate"
+	"github.com/angrieralien/seeother/foundation/logger"
 	"github.com/jmoiron/sqlx"
 )
 

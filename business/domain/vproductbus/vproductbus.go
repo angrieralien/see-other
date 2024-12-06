@@ -5,9 +5,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/mydomain/see-other/business/sdk/order"
-	"github.com/mydomain/see-other/business/sdk/page"
-	"github.com/mydomain/see-other/foundation/otel"
+	"github.com/angrieralien/seeother/business/sdk/order"
+	"github.com/angrieralien/seeother/business/sdk/page"
+	"github.com/angrieralien/seeother/foundation/otel"
 )
 
 // Storer interface declares the behavior this package needs to persist and

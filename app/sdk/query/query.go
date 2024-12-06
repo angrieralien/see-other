@@ -4,7 +4,7 @@ package query
 import (
 	"encoding/json"
 
-	"github.com/mydomain/see-other/business/sdk/page"
+	"github.com/angrieralien/seeother/business/sdk/page"
 )
 
 // Result is the data model used when returning a query result.

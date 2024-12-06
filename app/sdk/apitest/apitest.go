@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mydomain/see-other/app/sdk/auth"
-	"github.com/mydomain/see-other/business/domain/userbus"
-	"github.com/mydomain/see-other/business/sdk/dbtest"
-	"github.com/mydomain/see-other/business/types/role"
+	"github.com/angrieralien/seeother/app/sdk/auth"
+	"github.com/angrieralien/seeother/business/domain/userbus"
+	"github.com/angrieralien/seeother/business/sdk/dbtest"
+	"github.com/angrieralien/seeother/business/types/role"
 	"github.com/golang-jwt/jwt/v4"
 )
 

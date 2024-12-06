@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/mydomain/see-other/business/domain/homebus"
-	"github.com/mydomain/see-other/business/types/hometype"
+	"github.com/angrieralien/seeother/business/domain/homebus"
+	"github.com/angrieralien/seeother/business/types/hometype"
 	"github.com/google/uuid"
 )
 

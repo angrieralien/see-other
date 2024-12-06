@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/mydomain/see-other/business/sdk/migrate"
-	"github.com/mydomain/see-other/business/sdk/sqldb"
+	"github.com/angrieralien/seeother/business/sdk/migrate"
+	"github.com/angrieralien/seeother/business/sdk/sqldb"
 )
 
 // Seed loads test data into the database.

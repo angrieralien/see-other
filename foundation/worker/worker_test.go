@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mydomain/see-other/foundation/worker"
+	"github.com/angrieralien/seeother/foundation/worker"
 )
 
 func Test_Worker(t *testing.T) {

@@ -4,16 +4,16 @@ package reporting
 import (
 	"time"
 
-	"github.com/mydomain/see-other/app/domain/checkapp"
-	"github.com/mydomain/see-other/app/domain/vproductapp"
-	"github.com/mydomain/see-other/app/sdk/mux"
-	"github.com/mydomain/see-other/business/domain/userbus"
-	"github.com/mydomain/see-other/business/domain/userbus/stores/usercache"
-	"github.com/mydomain/see-other/business/domain/userbus/stores/userdb"
-	"github.com/mydomain/see-other/business/domain/vproductbus"
-	"github.com/mydomain/see-other/business/domain/vproductbus/stores/vproductdb"
-	"github.com/mydomain/see-other/business/sdk/delegate"
-	"github.com/mydomain/see-other/foundation/web"
+	"github.com/angrieralien/seeother/app/domain/checkapp"
+	"github.com/angrieralien/seeother/app/domain/vproductapp"
+	"github.com/angrieralien/seeother/app/sdk/mux"
+	"github.com/angrieralien/seeother/business/domain/userbus"
+	"github.com/angrieralien/seeother/business/domain/userbus/stores/usercache"
+	"github.com/angrieralien/seeother/business/domain/userbus/stores/userdb"
+	"github.com/angrieralien/seeother/business/domain/vproductbus"
+	"github.com/angrieralien/seeother/business/domain/vproductbus/stores/vproductdb"
+	"github.com/angrieralien/seeother/business/sdk/delegate"
+	"github.com/angrieralien/seeother/foundation/web"
 )
 
 // Routes constructs the add value which provides the implementation of

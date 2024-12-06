@@ -4,8 +4,8 @@ import (
 	"net/mail"
 	"time"
 
-	"github.com/mydomain/see-other/business/types/name"
-	"github.com/mydomain/see-other/business/types/role"
+	"github.com/angrieralien/seeother/business/types/name"
+	"github.com/angrieralien/seeother/business/types/role"
 	"github.com/google/uuid"
 )
 

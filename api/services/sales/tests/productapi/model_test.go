@@ -3,8 +3,8 @@ package product_test
 import (
 	"time"
 
-	"github.com/mydomain/see-other/app/domain/productapp"
-	"github.com/mydomain/see-other/business/domain/productbus"
+	"github.com/angrieralien/seeother/app/domain/productapp"
+	"github.com/angrieralien/seeother/business/domain/productbus"
 )
 
 func toAppProduct(prd productbus.Product) productapp.Product {

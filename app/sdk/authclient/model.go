@@ -3,7 +3,7 @@ package authclient
 import (
 	"encoding/json"
 
-	"github.com/mydomain/see-other/app/sdk/auth"
+	"github.com/angrieralien/seeother/app/sdk/auth"
 	"github.com/google/uuid"
 )
 
